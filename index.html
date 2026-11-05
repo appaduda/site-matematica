@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fatorial | Matemática para ENEM e Vestibulares</title>
+
+    <meta name="description" content="Aprenda fatorial do zero, entenda suas propriedades e prepare-se para questões de matemática do ENEM e vestibulares.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">n!</span>
+                <span>Fatorial<span class="logo-dot">.</span></span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#inicio" class="nav-link active">Início</a>
+                <a href="#sobre" class="nav-link">Sobre o projeto</a>
+                <a href="#conteudo" class="nav-link">Conteúdos</a>
+            </div>
+
+            <a href="#conteudo" class="nav-button">
+                Começar a estudar
+                <span>↗</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menu" aria-expanded="false">
+                ☰
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- SEÇÃO PRINCIPAL -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-decoration decoration-one"></div>
+            <div class="hero-decoration decoration-two"></div>
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        MATEMÁTICA • ENEM • VESTIBULARES
+                    </div>
+
+                    <h1>
+                        Descomplicando o
+                        <span>fatorial.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Entenda a lógica por trás do fatorial, domine suas
+                        propriedades e aprenda a resolver questões com
+                        mais segurança. Matemática explicada de forma
+                        clara, visual e estratégica.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#conteudo" class="button-primary">
+                            Explorar conteúdos
+                            <span>→</span>
+                        </a>
+
+                        <a href="#sobre" class="button-secondary">
+                            Conhecer o projeto
+                        </a>
+                    </div>
+
+                    <div class="hero-proof">
+                        <div class="proof-icon">✓</div>
+                        <p>
+                            <strong>Aprenda no seu ritmo</strong>
+                            <span>Do conceito básico às questões de prova</span>
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- PAINEL MATEMÁTICO -->
+                <div class="hero-visual">
+
+                    <div class="visual-top">
+                        <span class="visual-label">
+                            MATEMÁTICA EM FOCO
+                        </span>
+                        <span class="visual-symbol">✳</span>
+                    </div>
+
+                    <div class="formula-card">
+
+                        <span class="formula-caption">
+                            ENTENDENDO O FATORIAL
+                        </span>
+
+                        <div class="formula-main">
+                            n<span>!</span>
+                            <span class="formula-equals">=</span>
+                            <span class="formula-product">
+                                n · (n − 1) · ... · 2 · 1
+                            </span>
+                        </div>
+
+                        <div class="formula-divider"></div>
+
+                        <div class="example-label">
+                            EXEMPLO PRÁTICO
+                        </div>
+
+                        <div class="example-equation">
+                            <span class="blue-text">5!</span>
+                            <span>=</span>
+                            <span>5 · 4 · 3 · 2 · 1</span>
+                        </div>
+
+                        <div class="result-box">
+                            <span>RESULTADO</span>
+                            <strong>5! = 120</strong>
+                            <span class="result-check">✓</span>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-note note-top">
+                        <span class="note-icon">∑</span>
+                        <span>
+                            <strong>Raciocínio lógico</strong>
+                            <small>Entenda, não decore</small>
+                        </span>
+                    </div>
+
+                    <div class="floating-note note-bottom">
+                        <span class="note-icon note-icon-light">✦</span>
+                        <span>
+                            <strong>Foco nas provas</strong>
+                            <small>ENEM e vestibulares</small>
+                        </span>
+                    </div>
+
+                    <div class="visual-circle circle-one"></div>
+                    <div class="visual-circle circle-two"></div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-bottom container">
+                <span>UMA NOVA FORMA DE APRENDER MATEMÁTICA</span>
+                <span class="scroll-indicator">ROLE PARA EXPLORAR ↓</span>
+            </div>
+
+        </section>
+
+
+        <!-- FAIXA DE DESTAQUES -->
+        <section class="highlights">
+            <div class="container highlights-grid">
+
+                <div class="highlight-item">
+                    <span class="highlight-number">01</span>
+                    <div>
+                        <strong>Conceitos fundamentais</strong>
+                        <p>Comece pela base e avance com confiança.</p>
+                    </div>
+                </div>
+
+                <div class="highlight-item">
+                    <span class="highlight-number">02</span>
+                    <div>
+                        <strong>Exemplos resolvidos</strong>
+                        <p>Veja como aplicar a teoria na prática.</p>
+                    </div>
+                </div>
+
+                <div class="highlight-item">
+                    <span class="highlight-number">03</span>
+                    <div>
+                        <strong>Preparação para provas</strong>
+                        <p>Estude pensando no ENEM e nos vestibulares.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- APRESENTAÇÃO DO PROJETO -->
+        <section class="about section-padding" id="sobre">
+
+            <div class="container about-grid">
+
+                <div class="section-heading">
+                    <span class="section-kicker">SOBRE O PROJETO</span>
+
+                    <h2>
+                        Matemática fica mais fácil quando
+                        <span>faz sentido.</span>
+                    </h2>
+
+                    <p>
+                        O fatorial é um conceito importante da matemática,
+                        especialmente em problemas de contagem, análise
+                        combinatória e probabilidade. Aprender como ele
+                        funciona ajuda a compreender diversos conteúdos
+                        que aparecem em provas e exercícios.
+                    </p>
+
+                    <a href="#conteudo" class="text-link">
+                        Descubra o conteúdo
+                        <span>→</span>
+                    </a>
+                </div>
+
+
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <span class="mini-icon">n!</span>
+                        <span class="card-tag">CONCEITO-CHAVE</span>
+                    </div>
+
+                    <h3>O que significa o símbolo !?</h3>
+
+                    <p>
+                        O ponto de exclamação representa a operação
+                        fatorial. Para um número natural positivo,
+                        multiplicamos esse número por todos os naturais
+                        positivos menores que ele, até chegar ao 1.
+                    </p>
+
+                    <div class="mini-example">
+                        <span>4! =</span>
+                        <span>4 × 3 × 2 × 1</span>
+                        <span class="mini-result">24</span>
+                    </div>
+
+                    <div class="about-card-footer">
+                        <span class="footer-line"></span>
+                        <span>Uma ideia, várias aplicações.</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRÉVIA DOS CONTEÚDOS -->
+        <section class="contents section-padding" id="conteudo">
+
+            <div class="container">
+
+                <div class="contents-heading">
+                    <div>
+                        <span class="section-kicker">SUA JORNADA DE ESTUDOS</span>
+                        <h2>O que você vai <span>aprender?</span></h2>
+                    </div>
+
+                    <p>
+                        Um caminho de aprendizagem organizado para
+                        construir sua compreensão passo a passo.
+                    </p>
+                </div>
+
+
+                <div class="content-grid">
+
+                    <article class="content-card">
+                        <div class="content-card-top">
+                            <span class="content-icon icon-blue">01</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+
+                        <span class="content-category">INTRODUÇÃO</span>
+
+                        <h3>A história do fatorial</h3>
+
+                        <p>
+                            Conheça a origem do conceito, seu
+                            desenvolvimento e sua importância na matemática.
+                        </p>
+
+                        <span class="content-status">Em breve</span>
+                    </article>
+
+
+                    <article class="content-card featured-card">
+                        <div class="content-card-top">
+                            <span class="content-icon icon-light">02</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+
+                        <span class="content-category">TEORIA E PRÁTICA</span>
+
+                        <h3>Conceitos e exemplos</h3>
+
+                        <p>
+                            Aprenda a calcular fatoriais, compreender
+                            as regras e resolver exemplos passo a passo.
+                        </p>
+
+                        <span class="content-status">Em breve</span>
+                    </article>
+
+
+                    <article class="content-card">
+                        <div class="content-card-top">
+                            <span class="content-icon icon-blue">03</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+
+                        <span class="content-category">FIXAÇÃO</span>
+
+                        <h3>Quiz de conhecimentos</h3>
+
+                        <p>
+                            Teste o que aprendeu e pratique com
+                            perguntas sobre o conteúdo estudado.
+                        </p>
+
+                        <span class="content-status">Em breve</span>
+                    </article>
+
+
+                    <article class="content-card">
+                        <div class="content-card-top">
+                            <span class="content-icon icon-blue">04</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+
+                        <span class="content-category">DESAFIO</span>
+
+                        <h3>Fatorial nas provas</h3>
+
+                        <p>
+                            Explore aplicações do fatorial em problemas
+                            de análise combinatória e questões de vestibular.
+                        </p>
+
+                        <span class="content-status">Em breve</span>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CHAMADA FINAL -->
+        <section class="final-cta">
+            <div class="container cta-content">
+
+                <div class="cta-symbol">n!</div>
+
+                <div>
+                    <span class="section-kicker">SEU PRÓXIMO PASSO</span>
+
+                    <h2>Prepare a mente. Comece pelo básico.</h2>
+
+                    <p>
+                        Entenda a matemática por trás dos números
+                        e avance um conceito de cada vez.
+                    </p>
+                </div>
+
+                <a href="#inicio" class="button-primary cta-button">
+                    Voltar ao início ↑
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-icon">n!</span>
+                <span>Fatorial<span class="logo-dot">.</span></span>
+            </a>
+
+            <p>
+                Um projeto feito por Maria Eduarda Appa e Giovanna Afonso. 
+            </p>
+
+            <span class="copyright">
+                © 2026 Fatorial. Projeto educacional.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

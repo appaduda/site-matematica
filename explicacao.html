@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aprenda o que é fatorial, como calcular e veja exemplos resolvidos para o ENEM e vestibulares.">
+  <title>Explicação e Exemplos | Fatorial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- CABEÇALHO E MENU -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">n!</span>
+        <span>Fatorial<span class="logo-dot">.</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html#inicio" class="nav-link">Início</a>
+        <a href="index.html#sobre" class="nav-link">Sobre o projeto</a>
+        <a href="index.html#conteudo" class="nav-link">Conteúdos</a>
+        <a href="explicacao.html" class="nav-link active">Explicação e exemplos</a>
+      </div>
+
+      <a href="#exercicios" class="nav-button">
+        Praticar <span>↗</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- APRESENTAÇÃO -->
+    <section class="fx-hero">
+      <div class="fx-container fx-hero-grid">
+        <div>
+          <span class="fx-kicker">MATEMÁTICA • CONTEÚDO TEÓRICO</span>
+          <h1>Entenda o <span>fatorial</span> de uma vez por todas.</h1>
+          <p class="fx-hero-text">
+            Aprenda o conceito, descubra as regras e acompanhe exemplos
+            resolvidos passo a passo. Tudo para estudar com mais segurança
+            para o ENEM e os vestibulares.
+          </p>
+          <div class="fx-hero-actions">
+            <a href="#conceito" class="fx-button fx-button-primary">Começar a estudar ↓</a>
+            <a href="#exemplos" class="fx-button fx-button-secondary">Ver exemplos</a>
+          </div>
+        </div>
+
+        <div class="fx-formula-card">
+          <span class="fx-card-label">A IDEIA PRINCIPAL</span>
+          <div class="fx-big-formula">n!</div>
+          <p>O símbolo “!” representa o fatorial de um número natural.</p>
+          <div class="fx-formula-line">5! = 5 × 4 × 3 × 2 × 1</div>
+          <div class="fx-result">5! = 120</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONCEITO -->
+    <section class="fx-section" id="conceito">
+      <div class="fx-container">
+        <span class="fx-kicker">01 — CONCEITO</span>
+        <h2>O que é fatorial?</h2>
+        <p class="fx-intro">
+          O fatorial de um número natural positivo é o produto desse número
+          por todos os números naturais positivos menores que ele, até chegar
+          ao número 1. O fatorial é representado pelo símbolo de exclamação (!).
+        </p>
+
+        <div class="fx-definition">
+          <div class="fx-definition-symbol">n!</div>
+          <div>
+            <h3>Definição matemática</h3>
+            <p>
+              Para um número natural n maior ou igual a 1:
+            </p>
+            <div class="fx-math">n! = n × (n − 1) × (n − 2) × ... × 3 × 2 × 1</div>
+          </div>
+        </div>
+
+        <div class="fx-note">
+          <strong>Importante:</strong> o fatorial é uma multiplicação, não uma
+          soma. Por exemplo, 4! não é 4 + 3 + 2 + 1, mas sim 4 × 3 × 2 × 1.
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO CALCULAR -->
+    <section class="fx-section fx-section-soft" id="calculo">
+      <div class="fx-container">
+        <span class="fx-kicker">02 — COMO CALCULAR</span>
+        <h2>Como calcular um fatorial?</h2>
+        <p class="fx-intro">
+          Para calcular, escreva o número inicial e multiplique pelos números
+          inteiros positivos que vêm antes dele, até chegar a 1.
+        </p>
+
+        <div class="fx-steps">
+          <article class="fx-step">
+            <span class="fx-step-number">01</span>
+            <h3>Identifique o número</h3>
+            <p>Exemplo: queremos calcular 4!.</p>
+          </article>
+          <article class="fx-step">
+            <span class="fx-step-number">02</span>
+            <h3>Monte a multiplicação</h3>
+            <p>Escreva todos os números de 4 até 1.</p>
+            <div class="fx-mini-formula">4 × 3 × 2 × 1</div>
+          </article>
+          <article class="fx-step">
+            <span class="fx-step-number">03</span>
+            <h3>Resolva</h3>
+            <p>Multiplique os valores na sequência.</p>
+            <div class="fx-mini-formula">4 × 3 × 2 × 1 = 24</div>
+          </article>
+        </div>
+
+        <div class="fx-answer-banner">
+          <span>Portanto,</span>
+          <strong>4! = 24</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- REGRAS IMPORTANTES -->
+    <section class="fx-section" id="regras">
+      <div class="fx-container">
+        <span class="fx-kicker">03 — REGRAS IMPORTANTES</span>
+        <h2>O que você precisa saber</h2>
+
+        <div class="fx-rule-grid">
+          <article class="fx-rule-card">
+            <span class="fx-rule-tag">REGRA 01</span>
+            <h3>Fatorial de 0</h3>
+            <div class="fx-rule-formula">0! = 1</div>
+            <p>
+              Por definição matemática, o fatorial de zero é igual a 1.
+              Essa regra é importante em fórmulas de contagem e probabilidade.
+            </p>
+          </article>
+
+          <article class="fx-rule-card">
+            <span class="fx-rule-tag">REGRA 02</span>
+            <h3>Fatorial de 1</h3>
+            <div class="fx-rule-formula">1! = 1</div>
+            <p>
+              Como a multiplicação contém apenas o número 1, o resultado
+              também é 1.
+            </p>
+          </article>
+
+          <article class="fx-rule-card">
+            <span class="fx-rule-tag">REGRA 03</span>
+            <h3>Fatoriais consecutivos</h3>
+            <div class="fx-rule-formula">n! = n × (n − 1)!</div>
+            <p>
+              Um fatorial pode ser escrito usando o fatorial do número
+              anterior. Por exemplo: 5! = 5 × 4!.
+            </p>
+          </article>
+
+          <article class="fx-rule-card">
+            <span class="fx-rule-tag">REGRA 04</span>
+            <h3>O resultado cresce rápido</h3>
+            <div class="fx-rule-formula">6! = 720</div>
+            <p>
+              Mesmo aumentando pouco o número inicial, o resultado pode
+              crescer bastante, porque vários valores são multiplicados.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXEMPLOS RESOLVIDOS -->
+    <section class="fx-section fx-section-soft" id="exemplos">
+      <div class="fx-container">
+        <span class="fx-kicker">04 — EXEMPLOS RESOLVIDOS</span>
+        <h2>Aprenda na prática</h2>
+        <p class="fx-intro">
+          Acompanhe os cálculos e observe como o fatorial é desenvolvido.
+        </p>
+
+        <article class="fx-example">
+          <div class="fx-example-heading">
+            <span class="fx-example-number">EXEMPLO 01</span>
+            <span class="fx-level">Básico</span>
+          </div>
+          <h3>Calcule 3!</h3>
+          <p>Primeiro, escrevemos a multiplicação do 3 até o 1:</p>
+          <div class="fx-calculation">3! = 3 × 2 × 1</div>
+          <p>Agora, resolvemos:</p>
+          <div class="fx-calculation">3! = 6</div>
+          <div class="fx-example-result"><strong>Resposta: 6</strong></div>
+        </article>
+
+        <article class="fx-example">
+          <div class="fx-example-heading">
+            <span class="fx-example-number">EXEMPLO 02</span>
+            <span class="fx-level">Intermediário</span>
+          </div>
+          <h3>Calcule 5!</h3>
+          <p>Desenvolvemos o fatorial:</p>
+          <div class="fx-calculation">5! = 5 × 4 × 3 × 2 × 1</div>
+          <p>Multiplicamos passo a passo:</p>
+          <div class="fx-calculation">
+            5 × 4 = 20<br>
+            20 × 3 = 60<br>
+            60 × 2 = 120<br>
+            120 × 1 = 120
+          </div>
+          <div class="fx-example-result"><strong>Resposta: 120</strong></div>
+        </article>
+
+        <article class="fx-example">
+          <div class="fx-example-heading">
+            <span class="fx-example-number">EXEMPLO 03</span>
+            <span class="fx-level">Atenção à regra</span>
+          </div>
+          <h3>Calcule 6! ÷ 5!</h3>
+          <p>Podemos desenvolver os dois fatoriais:</p>
+          <div class="fx-calculation">
+            6! ÷ 5! = (6 × 5 × 4 × 3 × 2 × 1) ÷ (5 × 4 × 3 × 2 × 1)
+          </div>
+          <p>
+            Os fatores iguais do numerador e do denominador se cancelam.
+            Sobra apenas o número 6.
+          </p>
+          <div class="fx-calculation">6! ÷ 5! = 6</div>
+          <div class="fx-example-result"><strong>Resposta: 6</strong></div>
+        </article>
+
+        <article class="fx-example">
+          <div class="fx-example-heading">
+            <span class="fx-example-number">EXEMPLO 04</span>
+            <span class="fx-level">Estilo vestibular</span>
+          </div>
+          <h3>Resolva (4! + 3!) ÷ 3!</h3>
+          <p>Primeiro, calculamos os fatoriais:</p>
+          <div class="fx-calculation">4! = 24 &nbsp; e &nbsp; 3! = 6</div>
+          <p>Substituímos os valores na expressão:</p>
+          <div class="fx-calculation">(24 + 6) ÷ 6 = 30 ÷ 6 = 5</div>
+          <div class="fx-example-result"><strong>Resposta: 5</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SIMPLIFICAÇÃO -->
+    <section class="fx-section" id="simplificacao">
+      <div class="fx-container">
+        <span class="fx-kicker">05 — DICA DE PROVA</span>
+        <h2>Como simplificar fatoriais</h2>
+        <p class="fx-intro">
+          Em algumas questões, não é necessário calcular todos os fatoriais.
+          Você pode desenvolver apenas parte da multiplicação e simplificar
+          os fatores que aparecem em cima e embaixo da fração.
+        </p>
+
+        <div class="fx-definition fx-simplify">
+          <div class="fx-definition-symbol">7! / 5!</div>
+          <div>
+            <h3>Exemplo de simplificação</h3>
+            <div class="fx-math">7! / 5! = (7 × 6 × 5!) / 5!</div>
+            <div class="fx-math">= 7 × 6 = 42</div>
+            <p>
+              Como 5! aparece no numerador e no denominador, podemos
+              simplificá-lo. Assim, evitamos calcular 7! e 5! separadamente.
+            </p>
+          </div>
+        </div>
+
+        <div class="fx-note">
+          <strong>Dica para o ENEM:</strong> quando encontrar uma divisão
+          entre fatoriais próximos, procure escrever o maior fatorial
+          usando o menor. Isso costuma deixar a conta muito mais simples.
+        </div>
+      </div>
+    </section>
+
+    <!-- ERROS COMUNS -->
+    <section class="fx-section fx-section-soft" id="erros">
+      <div class="fx-container">
+        <span class="fx-kicker">06 — CUIDADOS</span>
+        <h2>Erros comuns para evitar</h2>
+
+        <div class="fx-mistakes">
+          <div class="fx-mistake">
+            <span class="fx-cross">✕</span>
+            <div>
+              <h3>Somar em vez de multiplicar</h3>
+              <p>Errado: 4! = 4 + 3 + 2 + 1 = 10.</p>
+              <p class="fx-correct">Correto: 4! = 4 × 3 × 2 × 1 = 24.</p>
+            </div>
+          </div>
+
+          <div class="fx-mistake">
+            <span class="fx-cross">✕</span>
+            <div>
+              <h3>Esquecer o fatorial de zero</h3>
+              <p>O resultado de 0! não é zero.</p>
+              <p class="fx-correct">Correto: 0! = 1, por definição.</p>
+            </div>
+          </div>
+
+          <div class="fx-mistake">
+            <span class="fx-cross">✕</span>
+            <div>
+              <h3>Cancelar fatores incorretamente</h3>
+              <p>Na divisão, simplifique fatores iguais que multiplicam o numerador e o denominador.</p>
+              <p class="fx-correct">Dica: desenvolva os fatoriais antes de cancelar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXERCÍCIOS -->
+    <section class="fx-section" id="exercicios">
+      <div class="fx-container">
+        <span class="fx-kicker">07 — TESTE SEU CONHECIMENTO</span>
+        <h2>Agora é sua vez!</h2>
+        <p class="fx-intro">
+          Resolva as questões abaixo. Selecione uma alternativa e confira
+          se você entendeu o conteúdo.
+        </p>
+
+        <div class="fx-question" id="question-one">
+          <span class="fx-question-label">QUESTÃO 01</span>
+          <h3>Qual é o valor de 4!?</h3>
+          <div class="fx-options">
+            <button class="fx-option" data-question="one" data-answer="a">A) 10</button>
+            <button class="fx-option" data-question="one" data-answer="b">B) 16</button>
+            <button class="fx-option" data-question="one" data-answer="c">C) 24</button>
+            <button class="fx-option" data-question="one" data-answer="d">D) 12</button>
+          </div>
+          <p class="fx-feedback" id="feedback-one" aria-live="polite"></p>
+        </div>
+
+        <div class="fx-question" id="question-two">
+          <span class="fx-question-label">QUESTÃO 02</span>
+          <h3>Qual é o resultado de 5! ÷ 4!?</h3>
+          <div class="fx-options">
+            <button class="fx-option" data-question="two" data-answer="a">A) 5</button>
+            <button class="fx-option" data-question="two" data-answer="b">B) 20</button>
+            <button class="fx-option" data-question="two" data-answer="c">C) 24</button>
+            <button class="fx-option" data-question="two" data-answer="d">D) 120</button>
+          </div>
+          <p class="fx-feedback" id="feedback-two" aria-live="polite"></p>
+        </div>
+
+        <div class="fx-question" id="question-three">
+          <span class="fx-question-label">QUESTÃO 03</span>
+          <h3>Por definição, quanto vale 0!?</h3>
+          <div class="fx-options">
+            <button class="fx-option" data-question="three" data-answer="a">A) 0</button>
+            <button class="fx-option" data-question="three" data-answer="b">B) 1</button>
+            <button class="fx-option" data-question="three" data-answer="c">C) 10</button>
+            <button class="fx-option" data-question="three" data-answer="d">D) Não existe</button>
+          </div>
+          <p class="fx-feedback" id="feedback-three" aria-live="polite"></p>
+        </div>
+
+        <div class="fx-score">
+          <div>
+            <span class="fx-score-label">SEU DESEMPENHO</span>
+            <p id="score-text">Você respondeu 0 de 3 questões.</p>
+          </div>
+          <button class="fx-button fx-button-primary" id="reset-quiz">Refazer questões ↻</button>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container">
+      <p>Fatorial. — Um guia de matemática para o ENEM e vestibulares.</p>
+      <a href="index.html">Voltar para o início ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- INTERAÇÕES DESTA PÁGINA -->
+  <script>
+    const correctAnswers = {
+      one: "c",
+      two: "a",
+      three: "b"
+    };
+
+    const explanations = {
+      one: "4! = 4 × 3 × 2 × 1 = 24.",
+      two: "5! ÷ 4! = (5 × 4!) ÷ 4! = 5.",
+      three: "Por definição matemática, 0! = 1."
+    };
+
+    const answered = {};
+
+    function updateScore() {
+      const totalAnswered = Object.keys(answered).length;
+      const correctCount = Object.keys(answered).filter(
+        question => answered[question] === correctAnswers[question]
+      ).length;
+
+      document.getElementById("score-text").textContent =
+        `Você acertou ${correctCount} de ${totalAnswered} questão(ões) respondida(s).`;
+    }
+
+    document.querySelectorAll(".fx-option").forEach(button => {
+      button.addEventListener("click", () => {
+        const question = button.dataset.question;
+        const answer = button.dataset.answer;
+        const feedback = document.getElementById(`feedback-${question}`);
+
+        if (answered[question]) return;
+
+        answered[question] = answer;
+
+        const options = document.querySelectorAll(
+          `.fx-option[data-question="${question}"]`
+        );
+
+        options.forEach(option => {
+          option.disabled = true;
+
+          if (option.dataset.answer === correctAnswers[question]) {
+            option.classList.add("fx-correct-option");
+          }
+        });
+
+        if (answer === correctAnswers[question]) {
+          feedback.textContent = `Correto! ${explanations[question]}`;
+          feedback.className = "fx-feedback fx-feedback-correct";
+        } else {
+          feedback.textContent = `Ainda não. ${explanations[question]}`;
+          feedback.className = "fx-feedback fx-feedback-wrong";
+          button.classList.add("fx-wrong-option");
+        }
+
+        updateScore();
+      });
+    });
+
+    document.getElementById("reset-quiz").addEventListener("click", () => {
+      Object.keys(answered).forEach(key => delete answered[key]);
+
+      document.querySelectorAll(".fx-option").forEach(button => {
+        button.disabled = false;
+        button.classList.remove("fx-correct-option", "fx-wrong-option");
+      });
+
+      document.querySelectorAll(".fx-feedback").forEach(feedback => {
+        feedback.textContent = "";
+        feedback.className = "fx-feedback";
+      });
+
+      document.getElementById("score-text").textContent =
+        "Você respondeu 0 de 3 questões.";
+    });
+  </script>
+
+</body>
+</html>
+

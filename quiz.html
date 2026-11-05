@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz de Fatorial | Fatorial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="qz-body">
+
+  <header class="qz-header">
+    <a href="index.html" class="qz-logo">FATORIAL<span>.</span></a>
+
+    <nav class="qz-nav">
+      <a href="index.html">Início</a>
+      <a href="explicacao.html">Explicação e exemplos</a>
+      <a href="quiz.html" class="qz-active">Quiz</a>
+    </nav>
+
+    <a href="#quiz" class="qz-header-button">Começar agora ↗</a>
+  </header>
+
+  <main>
+    <section class="qz-hero">
+      <span class="qz-tag">ÁREA DE PRÁTICA · MATEMÁTICA</span>
+
+      <h1>Teste seus conhecimentos<br>sobre <span>fatorial.</span></h1>
+
+      <p>
+        Chegou a hora de colocar o que você aprendeu em prática.
+        Resolva as questões, confira seu desempenho e prepare-se
+        para o ENEM e os vestibulares.
+      </p>
+
+      <div class="qz-hero-info">
+        <div>
+          <strong>10</strong>
+          <span>questões</span>
+        </div>
+        <div>
+          <strong>Múltipla</strong>
+          <span>escolha</span>
+        </div>
+        <div>
+          <strong>100%</strong>
+          <span>prática</span>
+        </div>
+      </div>
+
+      <a href="#quiz" class="qz-main-button">Iniciar quiz <span>↓</span></a>
+    </section>
+
+    <section class="qz-quiz-section" id="quiz">
+      <div class="qz-section-heading">
+        <div>
+          <span class="qz-tag">DESAFIO</span>
+          <h2>Vamos praticar?</h2>
+          <p>Leia cada questão e escolha apenas uma alternativa.</p>
+        </div>
+        <div class="qz-score-mini">
+          <span>Acertos</span>
+          <strong id="qz-score">0</strong>
+        </div>
+      </div>
+
+      <div class="qz-progress-area">
+        <div class="qz-progress-text">
+          <span id="qz-progress-label">Questão 1 de 10</span>
+          <span id="qz-progress-number">0% concluído</span>
+        </div>
+        <div class="qz-progress-track">
+          <div class="qz-progress-fill" id="qz-progress-fill"></div>
+        </div>
+      </div>
+
+      <div id="qz-questions">
+
+        <article class="qz-question" data-answer="b"
+          data-explanation="O fatorial de 3 é 3 × 2 × 1, que resulta em 6.">
+          <div class="qz-question-top">
+            <span class="qz-number">01</span>
+            <span class="qz-level">Fácil</span>
+          </div>
+          <h3>Quanto vale 3! ?</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 3</button>
+            <button class="qz-option" data-choice="b">B) 6</button>
+            <button class="qz-option" data-choice="c">C) 9</button>
+            <button class="qz-option" data-choice="d">D) 12</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="qz-question" data-answer="c"
+          data-explanation="Por definição matemática, 0! = 1. Essa regra também ajuda a manter válidas diversas fórmulas de contagem.">
+          <div class="qz-question-top">
+            <span class="qz-number">02</span>
+            <span class="qz-level">Fácil</span>
+          </div>
+          <h3>Qual é o valor de 0! ?</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 0</button>
+            <button class="qz-option" data-choice="b">B) Indefinido</button>
+            <button class="qz-option" data-choice="c">C) 1</button>
+            <button class="qz-option" data-choice="d">D) -1</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="qz-question" data-answer="a"
+          data-explanation="5! = 5 × 4 × 3 × 2 × 1 = 120.">
+          <div class="qz-question-top">
+            <span class="qz-number">03</span>
+            <span class="qz-level">Fácil</span>
+          </div>
+          <h3>Calcule 5!.</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 120</button>
+            <button class="qz-option" data-choice="b">B) 60</button>
+            <button class="qz-option" data-choice="c">C) 25</button>
+            <button class="qz-option" data-choice="d">D) 720</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="qz-question" data-answer="d"
+          data-explanation="4! = 4 × 3 × 2 × 1 = 24.">
+          <div class="qz-question-top">
+            <span class="qz-number">04</span>
+            <span class="qz-level">Fácil</span>
+          </div>
+          <h3>Qual expressão representa corretamente 4! ?</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 4 × 4</button>
+            <button class="qz-option" data-choice="b">B) 4 + 3 + 2 + 1</button>
+            <button class="qz-option" data-choice="c">C) 4 × 3</button>
+            <button class="qz-option" data-choice="d">D) 4 × 3 × 2 × 1</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="qz-question" data-answer="b"
+          data-explanation="6! / 5! = (6 × 5!) / 5! = 6. Os fatores 5! se cancelam.">
+          <div class="qz-question-top">
+            <span class="qz-number">05</span>
+            <span class="qz-level">Intermediário</span>
+          </div>
+          <h3>Qual é o resultado de 6! ÷ 5! ?</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 1</button>
+            <button class="qz-option" data-choice="b">B) 6</button>
+            <button class="qz-option" data-choice="c">C) 30</button>
+            <button class="qz-option" data-choice="d">D) 120</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="qz-question" data-answer="a"
+          data-explanation="3! + 2! = 6 + 2 = 8. Primeiro calculamos cada fatorial e depois somamos.">
+          <div class="qz-question-top">
+            <span class="qz-number">06</span>
+            <span class="qz-level">Intermediário</span>
+          </div>
+          <h3>Quanto vale 3! + 2! ?</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 8</button>
+            <button class="qz-option" data-choice="b">B) 10</button>
+            <button class="qz-option" data-choice="c">C) 12</button>
+            <button class="qz-option" data-choice="d">D) 6</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="qz-question" data-answer="c"
+          data-explanation="5! / 3! = (5 × 4 × 3!) / 3! = 5 × 4 = 20.">
+          <div class="qz-question-top">
+            <span class="qz-number">07</span>
+            <span class="qz-level">Intermediário</span>
+          </div>
+          <h3>Simplifique 5! ÷ 3!.</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 5</button>
+            <button class="qz-option" data-choice="b">B) 10</button>
+            <button class="qz-option" data-choice="c">C) 20</button>
+            <button class="qz-option" data-choice="d">D) 60</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="qz-question" data-answer="a"
+          data-explanation="O fatorial de 4 é exatamente o produto 4 × 3 × 2 × 1.">
+          <div class="qz-question-top">
+            <span class="qz-number">08</span>
+            <span class="qz-level">Intermediário</span>
+          </div>
+          <h3>Qual fatorial corresponde ao produto 4 × 3 × 2 × 1?</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 4!</button>
+            <button class="qz-option" data-choice="b">B) 3!</button>
+            <button class="qz-option" data-choice="c">C) 5!</button>
+            <button class="qz-option" data-choice="d">D) 2!</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="qz-question" data-answer="d"
+          data-explanation="7! = 7 × 6!, então 7! / 6! = 7.">
+          <div class="qz-question-top">
+            <span class="qz-number">09</span>
+            <span class="qz-level">Desafio</span>
+          </div>
+          <h3>Qual é o resultado de 7! ÷ 6! ?</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 6</button>
+            <button class="qz-option" data-choice="b">B) 13</button>
+            <button class="qz-option" data-choice="c">C) 42</button>
+            <button class="qz-option" data-choice="d">D) 7</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+        <article class="qz-question" data-answer="b"
+          data-explanation="Para n = 4, temos 4! + 1 = 24 + 1 = 25.">
+          <div class="qz-question-top">
+            <span class="qz-number">10</span>
+            <span class="qz-level">Desafio</span>
+          </div>
+          <h3>Se n = 4, qual é o valor de n! + 1?</h3>
+          <div class="qz-options">
+            <button class="qz-option" data-choice="a">A) 24</button>
+            <button class="qz-option" data-choice="b">B) 25</button>
+            <button class="qz-option" data-choice="c">C) 5</button>
+            <button class="qz-option" data-choice="d">D) 120</button>
+          </div>
+          <p class="qz-feedback" aria-live="polite"></p>
+        </article>
+
+      </div>
+
+      <div class="qz-result" id="qz-result" aria-live="polite" hidden>
+        <span class="qz-tag">RESULTADO FINAL</span>
+        <h2 id="qz-result-title">Quiz concluído!</h2>
+        <div class="qz-final-score">
+          <strong id="qz-final-score">0/10</strong>
+          <span id="qz-final-percent">0% de acertos</span>
+        </div>
+        <p id="qz-result-message"></p>
+        <button class="qz-main-button" id="qz-restart">Refazer quiz ↻</button>
+      </div>
+
+      <p class="qz-note">
+        Dica: tente resolver cada questão antes de olhar a explicação.
+        O objetivo é aprender, não apenas acertar.
+      </p>
+    </section>
+
+    <section class="qz-bottom">
+      <span class="qz-tag">CONTINUE APRENDENDO</span>
+      <h2>Quer revisar o conteúdo?</h2>
+      <p>Volte à explicação para rever as regras e os exemplos de fatorial.</p>
+      <a href="explicacao.html" class="qz-main-button">Revisar conteúdo ↗</a>
+    </section>
+  </main>
+
+  <footer class="qz-footer">
+    <a href="index.html" class="qz-logo">FATORIAL<span>.</span></a>
+    <p>Matemática de forma clara, prática e objetiva.</p>
+    <span>Projeto educacional · ENEM e vestibulares</span>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    const questions = [...document.querySelectorAll(".qz-question")];
+    const scoreElement = document.getElementById("qz-score");
+    const progressLabel = document.getElementById("qz-progress-label");
+    const progressNumber = document.getElementById("qz-progress-number");
+    const progressFill = document.getElementById("qz-progress-fill");
+    const result = document.getElementById("qz-result");
+
+    let answered = 0;
+    let score = 0;
+
+    function updateProgress() {
+      const percent = Math.round((answered / questions.length) * 100);
+
+      scoreElement.textContent = score;
+      progressNumber.textContent = percent + "% concluído";
+      progressFill.style.width = percent + "%";
+
+      if (answered < questions.length) {
+        progressLabel.textContent =
+          "Questão " + (answered + 1) + " de " + questions.length;
+      } else {
+        progressLabel.textContent = "Todas as questões concluídas";
+      }
+    }
+
+    function finishQuiz() {
+      const percent = Math.round((score / questions.length) * 100);
+
+      result.hidden = false;
+      document.getElementById("qz-final-score").textContent =
+        score + "/" + questions.length;
+      document.getElementById("qz-final-percent").textContent =
+        percent + "% de acertos";
+
+      let title = "Continue praticando!";
+      let message = "Revise as explicações das questões e tente novamente.";
+
+      if (score === questions.length) {
+        title = "Desempenho excelente!";
+        message = "Você acertou todas as questões. Parabéns pelo domínio do conteúdo!";
+      } else if (score >= 7) {
+        title = "Muito bom!";
+        message = "Você mostrou que entendeu boa parte do conteúdo. Revise os detalhes que errou.";
+      } else if (score >= 4) {
+        title = "Você está no caminho certo!";
+        message = "Revise as regras de fatorial e pratique mais alguns exemplos para ganhar confiança.";
+      }
+
+      document.getElementById("qz-result-title").textContent = title;
+      document.getElementById("qz-result-message").textContent = message;
+      result.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    questions.forEach((question) => {
+      const options = question.querySelectorAll(".qz-option");
+      const feedback = question.querySelector(".qz-feedback");
+      const correctAnswer = question.dataset.answer;
+
+      options.forEach((option) => {
+        option.addEventListener("click", () => {
+          if (question.dataset.answered === "true") return;
+
+          question.dataset.answered = "true";
+          answered++;
+
+          const choice = option.dataset.choice;
+          const isCorrect = choice === correctAnswer;
+
+          if (isCorrect) {
+            score++;
+            option.classList.add("qz-correct");
+            feedback.textContent = "Correto! " + question.dataset.explanation;
+            feedback.classList.add("qz-feedback-correct");
+          } else {
+            option.classList.add("qz-wrong");
+
+            const correctOption = question.querySelector(
+              '[data-choice="' + correctAnswer + '"]'
+            );
+
+            correctOption.classList.add("qz-correct");
+            feedback.textContent =
+              "Ainda não! " + question.dataset.explanation;
+            feedback.classList.add("qz-feedback-wrong");
+          }
+
+          options.forEach((item) => {
+            item.disabled = true;
+          });
+
+          updateProgress();
+
+          if (answered === questions.length) {
+            finishQuiz();
+          }
+        });
+      });
+    });
+
+    document.getElementById("qz-restart").addEventListener("click", () => {
+      answered = 0;
+      score = 0;
+
+      questions.forEach((question) => {
+        delete question.dataset.answered;
+
+        question.querySelectorAll(".qz-option").forEach((option) => {
+          option.disabled = false;
+          option.classList.remove("qz-correct", "qz-wrong");
+        });
+
+        const feedback = question.querySelector(".qz-feedback");
+        feedback.textContent = "";
+        feedback.classList.remove(
+          "qz-feedback-correct",
+          "qz-feedback-wrong"
+        );
+      });
+
+      result.hidden = true;
+      updateProgress();
+
+      document.getElementById("quiz").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    });
+
+    updateProgress();
+  </script>
+</body>
+</html>
